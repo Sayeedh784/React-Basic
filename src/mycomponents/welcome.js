@@ -1,8 +1,18 @@
 import React,{ Component } from 'react'
 
 class Welcome extends Component{
+
+  doThisFromClass(a){
+    alert(a)
+  }
+  
   render(){
-    return <h1>Welcome to class function.</h1>
+    return <div>
+      <h1>I am from {this.props.name} </h1>
+      <button onClick={this.doThisFromClass.bind(this,"This is a class para")} >click from class</button>
+    </div>
+    
+    
     
   }
     
