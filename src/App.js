@@ -9,6 +9,11 @@ import Condition1 from './mycomponents/condition1';
 import Refresh from './mycomponents/refresh';
 import Newdemo from './mycomponents/newdemo';
 import Anotherdemo from './mycomponents/anotherdemo';
+import Form from './mycomponents/form';
+import Signup from './mycomponents/signup';
+import Text from './mycomponents/text';
+import Select from './mycomponents/Select';
+
 
 function App() {
   return (
@@ -29,7 +34,19 @@ function App() {
       <Refresh/>
       <Newdemo/>
       <br/>
+      
+      
       <Anotherdemo/>
+      <br/>
+      <Form/>
+      <br/>
+      <br/>
+      <br/>
+      <Select/>
+      <br/>
+      <Signup/>
+      <Text/>
+      <br/>
       
      
     </div>
